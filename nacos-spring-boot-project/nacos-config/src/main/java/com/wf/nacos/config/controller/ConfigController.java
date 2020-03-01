@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class ConfigController {
-    @Value("${username:lily}")
+    @Value("${username:wf}")
     private String username;
 
     @RequestMapping("/username")
